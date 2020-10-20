@@ -40,8 +40,8 @@ echo -e "\033[1;92m Acesso em: hhttp://localhost\033[m"
 ```
 
 ## Requisitos de desenvolvimento ##
-- [Postman](https://www.getpostman.com/downloads/) - Utilizar esta documentaçao: 
-https://documenter.getpostman.com/view/2284246/SVmzvcZv?version=latest#intro
+- [Postman](https://www.getpostman.com/downloads/) - Utilizar esta collection / documentaçao: 
+https://documenter.getpostman.com/view/10158358/TVYC8z5X
 - Utilizar biblioteca: [laravel-responder](https://github.com/flugger/laravel-responder)
 - Utilizar biblioteca: [jwt-auth](https://jwt-auth.readthedocs.io/en/develop/laravel-installation/) 
 
