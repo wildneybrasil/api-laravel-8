@@ -63,7 +63,7 @@ https://documenter.getpostman.com/view/10158358/TVYC8z5X
 ## O que será avalidado ##
 - Funcionar o ambiente docker
 - Ao abrir a collection do Postman, temos 4 rotas (referentes a Autenticação) com exemplos de como devem funcionar (inputs/outputs). Desenvolver essas rotas de forma que ao executá-las no Postman, os resultados sejam exibidos conforme o descrito na doc.
-- Criar 4 rotas **privadas** referentes à um CRUD de produtos. As informações poderão ser: "Nome", "Preço", "Peso".
+- Criar 4 rotas **privadas** referentes à um CRUD de produtos. As informações poderão ser: "Nome", "Preço", "Peso" e um campo para **upload** de foto
 - Atualizar a documentação do Postman
 - Enviar por e-mail o link de seu fork (não precisa criar PR) junto com o link de sua documentação do Postman
 - Obrigado e boa sorte =)
