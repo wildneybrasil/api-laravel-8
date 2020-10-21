@@ -39,6 +39,21 @@ docker-compose exec --user=laradock workspace sh -c "cd /var/www/laravel && php 
 echo -e "\033[1;92m Acesso em: hhttp://localhost\033[m"
 ```
 
+## Por onde começar ##
+Após ligar o docker será possível conectar-se a um container chamado Workspace.
+Dentro dele é possível executar comandos como php artisan, composer, etc.
+Para acessar a workspace digite o comando abaixo dentro da pasta docker
+```shell
+docker-compose exec --user=laradock workspace bash
+```
+Exemplo:
+```shell
+$ docker-compose exec --user=laradock workspace bash                     
+laradock@b1a67c89c959:/var/www$ cd laravel/
+laradock@b1a67c89c959:/var/www/laravel$ php artisan make:migration CreateFooTable
+Created Migration: 2020_10_21_152543_create_foo_table
+```
+
 ## Requisitos de desenvolvimento ##
 - [Postman](https://www.getpostman.com/downloads/) - Utilizar esta collection / documentaçao: 
 https://documenter.getpostman.com/view/10158358/TVYC8z5X
