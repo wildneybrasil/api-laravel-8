@@ -13,7 +13,7 @@ Aqui na DIN DIGITAL nós costumamos trabalhar o desenvolvimento utilizando Docke
 ## Comando para configuração automática do ambiente ##
 Copie o bloco de commandos abaixo e cole num terminal dentro de sua pasta de projetos
 OBS: Este commando inclui o próprio git clone
-No final você terá um ambiente LAMP e um Laravel 5.8, pronto para ser trabalhado, dentro da pasta site.
+No final você terá um ambiente LAMP e um Laravel 8, pronto para ser trabalhado, dentro da pasta site.
 
 ```shell
 echo -e "\033[1;92m Clonando repositório...\033[m" &&\
