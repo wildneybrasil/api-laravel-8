@@ -2,6 +2,8 @@
 
 namespace App\Exceptions;
 
+use Exception;
+use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
 class Handler extends ExceptionHandler
@@ -34,4 +36,14 @@ class Handler extends ExceptionHandler
     {
         //
     }
+
+    protected function unauthenticated($request, AuthenticationException $exception) 
+    {
+
+        if( $request->expectsJson() ){
+            return responder()->error(401, 'Acesso negado')->respond(401);
+        }
+
+    }
+
 }
